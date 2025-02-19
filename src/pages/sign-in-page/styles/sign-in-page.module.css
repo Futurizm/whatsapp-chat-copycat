@@ -1,0 +1,36 @@
+
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh
+}
+
+.input__block {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #ffffff;
+    padding: 40px;
+    min-width: 500px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+}
+
+.input__block__input {
+    border: 1px solid #cccccc;
+    font-family: "Montserrat", serif;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.input__block__button {
+    background-color: #059609;
+    color: #ffffff;
+    font-family: "Montserrat", serif;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+

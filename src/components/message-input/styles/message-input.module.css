@@ -1,0 +1,26 @@
+
+
+.message__input__block {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    margin-top: auto;
+    background-color: #eae9e9;
+    padding: 10px;
+}
+
+.message__input__block__input {
+    font-family: Montserrat, serif;
+    width: 100%;
+    padding: 10px;
+}
+
+.message__input__block__button {
+    outline: none;
+    background: none;
+}
+
+.message__input__block__button__icon {
+    color: #6cc378;
+}

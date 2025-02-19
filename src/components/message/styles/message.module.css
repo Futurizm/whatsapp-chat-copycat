@@ -1,0 +1,18 @@
+.message {
+  font-family: Montserrat, serif;
+  margin: 5px 10px;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 100%;
+  color: #000000;
+}
+
+.sent {
+  align-self: flex-end;
+  background-color: #dcf8c6;
+}
+
+.received {
+  align-self: flex-start;
+  background-color: #ffffff;
+}
