@@ -78,6 +78,8 @@ export const Chat = () => {
                     }
                 });
 
+                console.log(lastReceiptId);
+                
                 console.log('Ответ на отправку сообщения:', response.data)
 
                 setMessages(prevMessages => {
